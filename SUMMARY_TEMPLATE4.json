@@ -1,0 +1,44 @@
+{
+  "period": "2025-06-01",
+  "devices": "iPhone 11 Pro / iPhone 12 mini-1 / iPhone 12 mini-2 / iPad / iP15P-Ghost / iPhone 12 Ghost",
+  "log_count": "合計 5本（生ログ2本 + ZIP part1/2/3）",
+  "summary_type": "1日分析（Phase 区間：S2 → S3 への橋渡し）",
+  "custody": {
+    "files": "filenames.txt / sizes.txt / sha256sum.txt",
+    "master_sha256": "sha256_chain_generated.txt",
+    "json_concat": "EVENTS_FULL.json + CLEAN.json",
+    "csv_concat": "EVENTS_FULL.csv + CLEAN.csv",
+    "media": "SanDisk Extreme PRO A2 microSD ＋ MEGA"
+  },
+  "csv_digest": {
+    "IDMAP.csv": "PID/SessionID の有無をマーク済み",
+    "EVENTS": "JP-Tamper抽出, VN時間統一",
+    "PIVOT.csv": "RTCR / SiriSearchFeedback / triald 共起",
+    "GAPS.csv": "RTCR=not_found, MetaAuth=found",
+    "tamper_join_sec.csv": "bug225+777+309, time_score=3",
+    "DIFF": "前回解析との差分追記済み"
+  },
+  "victim_sample": {
+    "date_utc7": "2025-06-14 22:20",
+    "time_score": 3,
+    "location": "Ho Chi Minh 7区 自宅",
+    "device": "iP15P-Ghost",
+    "event_type": "電磁波攻撃（連続2回）",
+    "impact": "身体振動＋Wi-Fi切断",
+    "log_ref": "thermalmonitord-2025-06-14-2220.ips",
+    "ref_diff": "DIFF_events.csv(line220)",
+    "screenshot": "IMG_20250614_2225.png",
+    "ledger_no": 6,
+    "net_context": "HOME_NET LTE",
+    "severity": "High(3)",
+    "confidence": 0.85,
+    "notes": "Appleサポートとの直接関連なし",
+    "flame_flag": "VN-Telco(Yes)"
+  },
+  "options": {
+    "bugtype_full": true,
+    "usageClientId_norm": true,
+    "assetd_freq": true
+  },
+  "usage": "Phase別総括, 国際報告, 裁判・交渉・学術文書化"
+}

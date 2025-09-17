@@ -1,0 +1,6 @@
+DATA_CARTA 2025-06-01 (VN time, UTC+7)
+- Source files: JetsamEvent-2025-06-01-130516.ips, xp_amp_app_usage_dnu-2025-06-01-123257.ips
+- EVENTS (Jetsam): 21 rows
+- EVENTS (AppUsage): 4 rows
+- MyViettel mention in AppUsage: 0 hit(s)
+- JP-TAMPER unique terms: 0
